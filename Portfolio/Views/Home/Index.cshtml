@@ -1,0 +1,76 @@
+﻿<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test</title>
+
+        <link rel="stylesheet" href="~/css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    </head>
+    <body>
+        @*Navbar*@
+        <section class="main-page">
+         <div id='navbar'>
+            <ul>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact Me</a></li>
+          </ul>
+         
+          </div>
+          @*HomePage*@
+          <section class="container" id="home">
+              <div id="typing"><strong>Vështrim Mulaku</strong> <br/>
+                  <span>Junior WebDeveloper</span></div> 
+              <div id="anim"></div>
+              
+                  <img  src="~/images/profile.png" class="model" alt="model"/>
+           </section>
+          <div class="about-container" >
+          <h2>About Me</h2>   
+             <p class="about-txt">Hello my name is Vështrim Mulaku I come from Kosova. I'm a junior WebDeveloper, currently studying in UBT-Prishtine, I'm in my last year. 
+                 I enjoy working on back-end frameworks, one of my favorite is ASP.Net Core and NodeJs also
+                 I enjoy working on front-end but I don't practice it  much because I'm more focused at back-end frameworks.</p>
+          </div>
+      </section>
+      @*Skills*@
+      <section class="my-work" id="skills">
+        <h2 class="section__title section__title--work">Skills</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my Skills</p>
+
+        <div class="portfolio">
+                <img src="images/icon/rsz_icons8-html-5-480.png" alt="portfolio image"class="portfolio__img">
+                <img src="~/images/icon/rsz_icons8-css3-480.png" alt="portfolio image "class="portfolio__img">
+                <img src="~/images/icon/rsz_icons8-javascript-480.png" alt="portfolio image "class="portfolio__img">
+                <img src="~/images/icon/rsz_2reactjs.png" alt="portfolio image "class="portfolio__img">
+                <img src="~/images/icon/rsz_2aspnet-core-featured.png" alt="portfolio image "class="portfolio__img">
+                <img src="~/images/icon/rsz_1sqlicon.png" alt="portfolio image "class="portfolio__img">
+         </div>
+      </section>
+       @*Footer*@
+      <footer class="footer" id="contact">
+            <a href="mailto:veshtrimm1@gmail.com" class="footerlink">Contact Me</a>
+            <ul class="social-list">
+                <li class="social-listitem">
+                    <a href="https://www.facebook.com/veshtrim.mulaku/" class="social-list__link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-listitem">
+                    <a href="https://www.instagram.com/veshtrim.mulaku/" class="social-list__link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-listitem">
+                    <a href="https://github.com/Veshtrim" class="social-list__link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+      
+    </body>
+
+</html>
